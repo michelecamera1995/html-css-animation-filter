@@ -114,13 +114,26 @@
 }
 
 @keyframes rotate{
-    from{ transform: rotate(360deg); }
-    to{ transform: rotate(-360deg); }
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+@keyframes rotate1{
+    10% { transform: rotate(250deg); }
+    50% { transform: rotate(290deg); }
 }
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation-name: rotate1;
+    animation-duration: 2s;
+    animation-timing-function: linear;   
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
