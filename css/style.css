@@ -170,11 +170,11 @@
 /*Esercizio 12*/
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: top 3s linear;
+    animation: top 2s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: bottom 3s linear;
+    animation: bottom 2s linear;
 }
 
 @keyframes top {
@@ -209,32 +209,3 @@
 
 /*Esercizio 12*/
 
-/*Esercizio 13*/
-
-.ex-13-button:hover .ex-13-bottom-white {
-    animation: around1 3s linear;
-}
-
-@keyframes around1{
-    0% {
-        top: calc(100% - 200px);
-        left: calc(100% - 200px);
-      }
-      25% {
-        top: calc(100% - 200px);
-        left: calc(100% - 200px);
-      }
-      50% {
-        top: calc(100% - 200px);
-        left: calc(100% - 10px);
-      }
-      75% {
-        top: calc(100% - 10px);
-        left: calc(100% - 10px);
-      }
-      100% {
-        top: calc(100% - 10px);
-        left: calc(100% - 10px);
-      }
-    }
-    
